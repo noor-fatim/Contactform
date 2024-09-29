@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+html, body{
+  height: 100vh;
+  background-color: rgb(74, 204, 204);
+
+}
+.container-body{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* height: 570px; */
+  /* background-color: rgb(74, 204, 204); */
+}
+.container-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid black;
+  width: 500px;
+  height: 530px;
+  background-color: white;
+ 
+}
+.btn-container {
+ 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.form-submit{
+  margin: 30px;
+  width: 200px;
+  height: 200px;
+  padding: 10px 20px;
+  background-color: azure;
+  border: 1px solid black;
+}
